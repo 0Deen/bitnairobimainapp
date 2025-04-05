@@ -35,8 +35,6 @@ modeSwitch.addEventListener('click', () => {
   localStorage.setItem('nightMode', body.classList.contains('dark'));
 });
 
-
-
 // ===json fetch===
 let song = document.getElementsByClassName('songCards')[0];
 
