@@ -192,7 +192,6 @@ if (localStorage.getItem('like') === 'true') {
 likebtn.addEventListener('click', () => {
   likebtn.classList.toggle('on');
   
-  
   // Save user's preference in local storage
   localStorage.setItem('like', likebtn.classList.contains('on'));
 });
